@@ -3,7 +3,7 @@ import ArtworkPreview from "./ArtworkPreview";
 import type { ArtworkProps } from "../types";
 
 export default function ArtworksListContent() {
-    const [numArtworks, setNumArtworks] = useState(10);
+    const [numArtworks, setNumArtworks] = useState(5);
     const [artworks, setArtworks] = useState<ArtworkProps[]>([]);
 
     useEffect(() => {
